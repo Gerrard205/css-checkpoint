@@ -1,0 +1,106 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: beige;
+}
+nav{
+    font-family: 'roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul{
+    list-style-type: none;
+     display: flex;
+     justify-content: space-around;
+     border: 1px solid;
+     border-radius: 10px;
+     background-color: rgb(10, 12, 12);
+    color: bisque;
+}
+nav ul ol{
+    display: inline;
+}
+nav ul ol a{
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration: dotted;
+    color: rgb(25, 4, 44);
+}
+.boxed-section{
+    border: 2px solid;
+    padding: 20px;
+    margin: 20px; 
+    border-radius: 10px; 
+
+}
+#home ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+#home ul li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+#home ul li img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+.about-section{
+    border: 2px solid;
+    border-radius: 10ox;
+    padding: 20px;
+    margin: 20px;
+}
+#about img{
+    height: 600px;
+    width: 400px;
+}
+#about{
+    text-align: center;
+}
+.work-section{
+    border: 2px solid;
+    border-radius: 10ox;
+    padding: 20px;
+    margin: 20px;
+}
+#work{
+    text-align: center;
+}
+.resume-section{
+    border: 2px solid;
+    border-radius: 10ox;
+    padding: 20px;
+    margin: 20px;
+}
+#resume{
+    text-align: center;
+}
+#contact{
+    border: 2px solid;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(236, 215, 189);
+    color: rgb(63, 61, 59);
+    text-align: center;
+    width: 100%;
+   padding: 20px 0;
+      
+}
+ .footer-content{
+    max-width: 800px;
+    margin: auto;
+    border: 10px solid brown;
+}
+footer a{
+    color: brown;
+}
+footer p{
+    font-weight: bolder;
+    margin: 100x;
+    border: 10px;
+}
